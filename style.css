@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f5;
+    color: #333;
+}
+
+header {
+    background-color: #14532d;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.budget-card,
+.categories {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #14532d;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 13px 22px;
+    margin-top: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #166534;
+}
+
+#results {
+    background-color: #ecfdf5;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+#results p {
+    margin-top: 10px;
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.category-list div {
+    background-color: #dcfce7;
+    color: #14532d;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #14532d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
